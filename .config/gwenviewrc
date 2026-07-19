@@ -1,0 +1,36 @@
+[General]
+LastUsedVersion=210800
+SideBarPage=operations
+
+[MainWindow]
+MenuBar=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/.local/share/aurorae/themes/ActiveAccentFrame/decoration.svg
+File10[$e]=/mnt/HHD/Imágenes/Wallpapers/Juegos/corsscode3_upscayl_4x_upscayl-standard-4x.png
+File2[$e]=$HOME/.local/share/aurorae/themes/ActiveAccentFrame/screenshot.png
+File3[$e]=/mnt/HHD/Imágenes/Wallpapers/Dibujo-Render/among-us.jpg
+File4[$e]=/mnt/HHD/Imágenes/Wallpapers/Dibujo-Render/anatomy.jpg
+File5[$e]=/mnt/HHD/Imágenes/Wallpapers/Dibujo-Render/animeskull.png
+File6[$e]=/mnt/HHD/Imágenes/Wallpapers/Dibujo-Render/art_artwork_fantasy_artistic_original_3840x2160.jpg
+File7[$e]=/mnt/HHD/Imágenes/Wallpapers/Dibujo-Render/artificial-brain.jpg
+File8[$e]=/mnt/HHD/Imágenes/Wallpapers/Dibujo-Render/art-lake.png
+File9[$e]=/mnt/HHD/Imágenes/Wallpapers/Cine-tv/grey_lain_wallpaper.jpg
+Name1[$e]=decoration.svg
+Name10[$e]=corsscode3_upscayl_4x_upscayl-standard-4x.png
+Name2[$e]=screenshot.png
+Name3[$e]=among-us.jpg
+Name4[$e]=anatomy.jpg
+Name5[$e]=animeskull.png
+Name6[$e]=art_artwork_fantasy_artistic_original_3840x2160.jpg
+Name7[$e]=artificial-brain.jpg
+Name8[$e]=art-lake.png
+Name9[$e]=grey_lain_wallpaper.jpg
+
+[SideBar]
+InformationSplitterSizes=220,255
+IsVisible ViewMode=true
+SideBarSplitterSizes=257,697
+
+[ThumbnailView]
+ThumbnailSize=252

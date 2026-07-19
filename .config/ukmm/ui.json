@@ -1,0 +1,210 @@
+{
+  "theme": "Sheikah",
+  "picker_state": {
+    "path": "/home/ariel/Descargas",
+    "history": [],
+    "path_input": "/home/ariel/Descargas",
+    "entries": [
+      "/home/ariel/Descargas/Bitwig 6 beta Linux",
+      "/home/ariel/Descargas/BotWSaveManager-WindowsUI-1-1-4",
+      "/home/ariel/Descargas/cemuhook_1262d_0577",
+      "/home/ariel/Descargas/Fender_Twin_73_IR_Pack",
+      "/home/ariel/Descargas/Prodkeys",
+      "/home/ariel/Descargas/Shift_Line_Bass_IR_Pack",
+      "/home/ariel/Descargas/ukmm-x86_64-unknown-linux-gnu"
+    ]
+  },
+  "tree": {
+    "surfaces": [
+      {
+        "Main": {
+          "nodes": [
+            {
+              "Horizontal": {
+                "rect": {
+                  "min": {
+                    "x": 0.0,
+                    "y": 22.0
+                  },
+                  "max": {
+                    "x": 1200.0,
+                    "y": 800.0
+                  }
+                },
+                "fraction": 0.85
+              }
+            },
+            {
+              "Vertical": {
+                "rect": {
+                  "min": {
+                    "x": 0.0,
+                    "y": 22.0
+                  },
+                  "max": {
+                    "x": 1020.0,
+                    "y": 800.0
+                  }
+                },
+                "fraction": 0.75
+              }
+            },
+            {
+              "Vertical": {
+                "rect": {
+                  "min": {
+                    "x": 1020.0,
+                    "y": 22.0
+                  },
+                  "max": {
+                    "x": 1200.0,
+                    "y": 800.0
+                  }
+                },
+                "fraction": 0.6
+              }
+            },
+            {
+              "Leaf": {
+                "rect": {
+                  "min": {
+                    "x": 0.0,
+                    "y": 22.0
+                  },
+                  "max": {
+                    "x": 1020.0,
+                    "y": 605.0
+                  }
+                },
+                "viewport": {
+                  "min": {
+                    "x": 0.0,
+                    "y": 46.0
+                  },
+                  "max": {
+                    "x": 1020.0,
+                    "y": 605.0
+                  }
+                },
+                "tabs": [
+                  "Mods",
+                  "Package",
+                  "Settings"
+                ],
+                "active": 2,
+                "scroll": 0.0
+              }
+            },
+            {
+              "Leaf": {
+                "rect": {
+                  "min": {
+                    "x": 0.0,
+                    "y": 606.0
+                  },
+                  "max": {
+                    "x": 1020.0,
+                    "y": 800.0
+                  }
+                },
+                "viewport": {
+                  "min": {
+                    "x": 0.0,
+                    "y": 630.0
+                  },
+                  "max": {
+                    "x": 1020.0,
+                    "y": 800.0
+                  }
+                },
+                "tabs": [
+                  "Log"
+                ],
+                "active": 0,
+                "scroll": 0.0
+              }
+            },
+            {
+              "Leaf": {
+                "rect": {
+                  "min": {
+                    "x": 1020.0,
+                    "y": 22.0
+                  },
+                  "max": {
+                    "x": 1200.0,
+                    "y": 489.0
+                  }
+                },
+                "viewport": {
+                  "min": {
+                    "x": 1020.0,
+                    "y": 46.0
+                  },
+                  "max": {
+                    "x": 1200.0,
+                    "y": 489.0
+                  }
+                },
+                "tabs": [
+                  "Info",
+                  "Install"
+                ],
+                "active": 0,
+                "scroll": 0.0
+              }
+            },
+            {
+              "Leaf": {
+                "rect": {
+                  "min": {
+                    "x": 1020.0,
+                    "y": 489.0
+                  },
+                  "max": {
+                    "x": 1200.0,
+                    "y": 800.0
+                  }
+                },
+                "viewport": {
+                  "min": {
+                    "x": 1020.0,
+                    "y": 513.0
+                  },
+                  "max": {
+                    "x": 1200.0,
+                    "y": 800.0
+                  }
+                },
+                "tabs": [
+                  "Deploy"
+                ],
+                "active": 0,
+                "scroll": 0.0
+              }
+            },
+            "Empty",
+            "Empty",
+            "Empty",
+            "Empty",
+            "Empty",
+            "Empty",
+            "Empty",
+            "Empty"
+          ],
+          "focused_node": 3
+        }
+      }
+    ],
+    "focused_surface": 0,
+    "translations": {
+      "tab_context_menu": {
+        "close_button": "Close",
+        "eject_button": "Eject"
+      },
+      "window": {
+        "close_button_tooltip": "This window contains non-closable tabs."
+      }
+    }
+  }
+}

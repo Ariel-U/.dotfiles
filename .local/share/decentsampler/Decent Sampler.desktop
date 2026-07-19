@@ -1,0 +1,9 @@
+[Desktop Entry]
+Categories=AudioVideo;Audio;X-Jack;Midi;X-MIDI;
+Comment=just a sampler
+Exec=/home/ariel/.local/share/decentsampler/DecentSampler
+GenericName=sampler
+Icon=/home/ariel/.local/share/decentsampler/decentsampler.jpg
+Keywords=Audio;Sound;Guitar;Amplifier;Record;Midi;Jack;
+Name=Decent Sampler
+Type=Application

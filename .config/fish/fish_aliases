@@ -1,0 +1,38 @@
+#! /bin/fish
+alias al="micro ~/.config/fish/fish_aliases"
+alias motog04='scrcpy -KwS --screen-off-timeout=3600 --tcpip=192.168.100.140:5555'
+
+# Atajos
+alias c='clear'
+alias e='exit'
+alias h='history'
+alias t='touch'
+alias w='which'
+alias whereami='pwd'
+alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
+
+# Flags en comandos básicos
+alias mv='mv -vi'
+alias cp='cp -rvi'
+alias rm='rm -rfv'
+alias mkdir='mkdir -pv'
+alias ln='ln -vi'
+
+# usar eza en vez de ls
+alias ls="eza --icons --color"
+alias ll="eza --icons --color -lg"
+alias lla="eza --icons --color -alg"
+
+# sudo en aliases comunes
+alias lsblk="lsblk -f"
+alias timeshift="sudo timeshift"
+alias ufw="sudo ufw"
+alias blkid="sudo blkid"
+alias mount="sudo mount"
+alias umount="sudo umount"
+
+# otros aliases
+alias rsync="rsync -aAXv --progress"
+alias quicktone="wine /mnt/HHD/Archivos\ de\ Programa/NUX-MG300/QuickToneNuevo.exe >> /dev/null &"
+
+alias matrix="unimatrix -b -s 95"

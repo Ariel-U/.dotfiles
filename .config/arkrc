@@ -1,0 +1,12 @@
+[ExtractDialog]
+DirHistory[$e]=$HOME/Descargas/,$HOME/.local/share/fonts/,/mnt/HHD/Juegos/Roms/Sony - PlayStation 3/God of War III (USA) (v02.00)/
+
+[Extraction]
+closeAfterExtraction=true
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+StatusBar=Disabled

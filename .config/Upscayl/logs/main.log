@@ -1,0 +1,17 @@
+[2025-11-29 19:11:47.836] [info]  🆙 Upscayl version: 2.15.0 FOSS
+[2025-11-29 19:11:47.839] [info]  🚀 UPSCAYL EXEC PATH:  /usr/share/upscayl/bin/upscayl-bin
+[2025-11-29 19:11:47.839] [info]  🚀 MODELS PATH:  /usr/share/upscayl/models
+[2025-11-29 19:11:47.840] [info]  🚃 App Path:  /usr/share/upscayl/app.asar
+[2025-11-29 19:11:48.391] [info]  💻 System Info: {"platform":"linux","release":"6.17.9-arch1-1","arch":"x64","model":"AMD Ryzen 5 5600G with Radeon Graphics","cpuCount":12,"gpu":{"active":true,"deviceId":29824,"gpuPreference":0,"vendorId":4098}}
+[2025-11-29 19:11:57.325] [info]  💻 System Info: {"platform":"linux","release":"6.17.9-arch1-1","arch":"x64","model":"AMD Ryzen 5 5600G with Radeon Graphics","cpuCount":12,"gpu":{"active":true,"deviceId":29824,"gpuPreference":0,"vendorId":4098}}
+[2025-11-29 19:12:42.130] [info]  🔄 Resetting image paths
+[2025-11-29 19:12:42.130] [info]  ⤵️ Dropped file:  {"type":"image/png","extension":"png"}
+[2025-11-29 19:12:42.131] [info]  🖼 Setting image path:  undefined
+[2025-11-29 19:12:55.685] [info]  🆙 Upscayl version: 2.15.0 FOSS
+[2025-11-29 19:12:55.689] [info]  🚀 UPSCAYL EXEC PATH:  /usr/share/upscayl/bin/upscayl-bin
+[2025-11-29 19:12:55.689] [info]  🚀 MODELS PATH:  /usr/share/upscayl/models
+[2025-11-29 19:12:55.692] [info]  🚃 App Path:  /usr/share/upscayl/app.asar
+[2025-11-29 19:12:56.130] [info]  💻 System Info: {"platform":"linux","release":"6.17.9-arch1-1","arch":"x64","model":"AMD Ryzen 5 5600G with Radeon Graphics","cpuCount":12,"gpu":{"active":true,"deviceId":29824,"gpuPreference":0,"vendorId":4098}}
+[2025-11-29 19:13:03.249] [info]  🔄 Resetting image paths
+[2025-11-29 19:13:03.249] [info]  ⤵️ Dropped file:  {"type":"image/png","extension":"png"}
+[2025-11-29 19:13:03.250] [info]  🖼 Setting image path:  undefined

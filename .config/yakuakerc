@@ -1,0 +1,11 @@
+[Appearance]
+Skin=Yakuake-Qogir-Materia-Dark
+SkinInstalledWithKns=true
+
+[Dialogs]
+FirstRun=false
+
+[Window]
+Height=27
+KeepOpen=false
+Width=100

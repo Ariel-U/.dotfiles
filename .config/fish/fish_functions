@@ -1,0 +1,112 @@
+# Detectar gestor de paquetes al iniciar
+function init-pkg-managers --on-variable PATH --inherit-variable PATH
+
+    # Pacman
+    if test -f /usr/bin/pacman
+        function update --description "Actualiza base de datos de paquetes"
+            sudo pacman -Syy
+        end
+
+        function upgrade --description "Actualiza todos los paquetes"
+            sudo pacman -Syu --noconfirm
+            if test -x /usr/bin/yay
+                yay -Syu --noconfirm
+            end
+            if test -f /usr/bin/flatpak
+                flatpak update -y
+            end
+        end
+
+        function install --description "Instala paquete(s)"
+            sudo pacman -S $argv
+        end
+
+        function remove --description "Elimina paquete(s)"
+            sudo pacman -R $argv
+        end
+
+        function purge --description "Elimina archivos huérfanos"
+            pactree -d 1 | grep . | sudo pacman -Rns -
+        end
+
+        function autoremove --description "Elimina dependencias no usadas"
+            sudo pacman -Rscn
+        end
+
+        function search --description "Busca paquete(s)"
+            pacman -Ss $argv
+        end
+
+        function yays --description "Busca en AUR"
+            if test -x /usr/bin/yay
+                yay -Ss $argv
+            else
+                echo "Error: 'yay' no está instalado" >&2
+            end
+        end
+
+        function dep --description "Muestra dependencias directas"
+            pactree -d 1 --color $argv
+        end
+
+        function is --description "Busca paquetes instalados"
+            pacman -Qs $argv
+        end
+
+        function remove-f --description "Fuerza desinstalación ignorando dependencias"
+            sudo pacman -Rdd $argv
+        end
+
+        function huerfanos --description "Muestra paquetes huérfanos"
+            pacman -Qdtq
+        end
+
+        function update-mirrors --description "Actualiza lista de espejos"
+            sudo reflector --country Brazil,Chile,Paraguay --protocol http,https --fastest 10 --verbose --save /etc/pacman.d/mirrorlist
+            sudo pacman -Syy
+            cat /etc/pacman.d/mirrorlist
+        end
+
+        alias yay="yay --aur"
+    end
+
+    # Apt (Debian/Ubuntu/Mint)
+    if test -f /usr/bin/apt
+        function update --description "Actualiza índice de paquetes"
+            sudo apt update
+        end
+
+        function upgrade --description "Actualiza todos los paquetes"
+            sudo apt update
+            sudo apt upgrade -y
+            sudo apt dist-upgrade -y
+            if test -f /usr/bin/flatpak
+                flatpak update -y
+            end
+        end
+
+        function install --description "Instala paquete(s)"
+            sudo apt install $argv
+        end
+
+        function remove --description "Elimina paquete(s)"
+            sudo apt remove $argv
+        end
+
+        function autoremove --description "Elimina dependencias no usadas"
+            sudo apt autoremove
+        end
+
+        function search --description "Busca paquete(s)"
+            apt search $argv
+        end
+
+        function dep --description "Muestra dependencias"
+            apt-cache depends $argv
+        end
+
+        function is --description "Verifica si paquete está instalado"
+            apt list --installed | grep $argv
+        end
+    end
+end

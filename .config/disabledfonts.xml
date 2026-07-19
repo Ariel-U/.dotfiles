@@ -1,0 +1,188 @@
+<disabledfonts>
+  <font family="Noto Sans Samaritan" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Samaritan Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Tai Le" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Tai Le Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Vai" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Vai Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Serif Myanmar" weight="180" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Serif Myanmar SemiBold.ttf" foundry="GOOG"/>
+  <font family="Noto Serif Myanmar" weight="80" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Serif Myanmar Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Serif Myanmar" weight="0" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Serif Myanmar Thin.ttf" foundry="GOOG"/>
+  <font family="Noto Serif Myanmar" weight="205" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Serif Myanmar ExtraBold.ttf" foundry="GOOG"/>
+  <font family="Noto Serif Myanmar" weight="50" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Serif Myanmar Light.ttf" foundry="GOOG"/>
+  <font family="Noto Serif Myanmar" weight="210" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Serif Myanmar Black.ttf" foundry="GOOG"/>
+  <font family="Noto Serif Myanmar" weight="200" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Serif Myanmar Bold.ttf" foundry="GOOG"/>
+  <font family="Noto Serif Myanmar" weight="40" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Serif Myanmar ExtraLight.ttf" foundry="GOOG"/>
+  <font family="Noto Serif Myanmar" weight="100" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Serif Myanmar Medium.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Tai Viet" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Tai Viet Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Marchen" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Marchen Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Soyombo" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Soyombo Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans New Tai Lue" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans New Tai Lue Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Runic" weight="80" width="100" slant="0" langs="Qt-Runic" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Runic Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Avestan" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Avestan Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Mende Kikakui" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Mende Kikakui Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Imperial Aramaic" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Imperial Aramaic Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Myanmar UI" weight="205" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Myanmar UI ExtraBold.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Myanmar UI" weight="80" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Myanmar UI Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Myanmar UI" weight="200" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Myanmar UI Bold.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Myanmar UI" weight="210" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Myanmar UI Black.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Myanmar UI" weight="0" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Myanmar UI Thin.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Myanmar UI" weight="40" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Myanmar UI ExtraLight.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Myanmar UI" weight="100" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Myanmar UI Medium.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Myanmar UI" weight="50" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Myanmar UI Light.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Myanmar UI" weight="180" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Myanmar UI SemiBold.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Linear B" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Linear B Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Myanmar" weight="200" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Myanmar Bold.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Myanmar" weight="50" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Myanmar Light.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Myanmar" weight="0" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Myanmar Thin.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Myanmar" weight="180" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Myanmar SemiBold.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Myanmar" weight="100" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Myanmar Medium.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Myanmar" weight="210" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Myanmar Black.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Myanmar" weight="205" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Myanmar ExtraBold.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Myanmar" weight="40" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Myanmar ExtraLight.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Myanmar" weight="80" width="100" slant="0" langs="Qt-Myanmar,my" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Myanmar Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Takri" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Takri Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Mahajani" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Mahajani Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Gujarati" weight="40" width="100" slant="0" langs="gu" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Gujarati ExtraLight.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Gujarati" weight="50" width="100" slant="0" langs="gu" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Gujarati Light.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Gujarati" weight="100" width="100" slant="0" langs="gu" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Gujarati Medium.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Gujarati" weight="0" width="100" slant="0" langs="gu" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Gujarati Thin.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Gujarati" weight="180" width="100" slant="0" langs="gu" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Gujarati SemiBold.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Gujarati" weight="210" width="100" slant="0" langs="gu" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Gujarati Black.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Gujarati" weight="80" width="100" slant="0" langs="gu" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Gujarati Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Gujarati" weight="205" width="100" slant="0" langs="gu" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Gujarati ExtraBold.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Gujarati" weight="200" width="100" slant="0" langs="gu" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Gujarati Bold.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Mro" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Mro Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Modi" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Modi Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Old Turkic" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Old Turkic Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Kaithi" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Kaithi Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Batak" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Batak Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Serif Balinese" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Serif Balinese Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Kharoshthi" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Kharoshthi Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Buginese" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Buginese Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Ogham" weight="80" width="100" slant="0" langs="Qt-Ogham" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Ogham Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Coptic" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Coptic Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Bhaiksuki" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Bhaiksuki Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Manichaean" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Manichaean Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Caucasian Albanian" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Caucasian Albanian Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Serif Tangut" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Serif Tangut Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Wancho" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Wancho Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Syloti Nagri" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Syloti Nagri Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Javanese" weight="200" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Javanese Bold.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Javanese" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Javanese Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Symbols2" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Symbols2 Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Oriya" weight="200" width="100" slant="0" langs="or" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Oriya Bold.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Oriya" weight="210" width="100" slant="0" langs="or" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Oriya Black.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Oriya" weight="0" width="100" slant="0" langs="or" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Oriya Thin.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Oriya" weight="80" width="100" slant="0" langs="or" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Oriya Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Old Persian" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Old Persian Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Nushu" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Nushu Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Gunjala Gondi" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Gunjala Gondi Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Glagolitic" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Glagolitic Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Oriya UI" weight="200" width="100" slant="0" langs="or" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Oriya UI Bold.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Oriya UI" weight="80" width="100" slant="0" langs="or" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Oriya UI Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Oriya UI" weight="210" width="100" slant="0" langs="or" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Oriya UI Black.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Oriya UI" weight="0" width="100" slant="0" langs="or" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Oriya UI Thin.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Lydian" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Lydian Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Cuneiform" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Cuneiform Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Old Italic" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Old Italic Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Psalter Pahlavi" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Psalter Pahlavi Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Chakma" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Chakma Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Tamil Supplement" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Tamil Supplement Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Hatran" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Hatran Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Buhid" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Buhid Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Inscriptional Parthian" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Inscriptional Parthian Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Sogdian" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Sogdian Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Osmanya" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Osmanya Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans NKo" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans NKo Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Siddham" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Siddham Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Tirhuta" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Tirhuta Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Masaram Gondi" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Masaram Gondi Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Mandaic" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Mandaic Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Duployan" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Duployan Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Rejang" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Rejang Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Tifinagh" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Tifinagh Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Serif Grantha" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Serif Grantha Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Palmyrene" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Palmyrene Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Old Permic" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Old Permic Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Lycian" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Lycian Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Meroitic" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Meroitic Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Elbasan" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Elbasan Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Devanagari" weight="0" width="100" slant="0" langs="hi" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Devanagari Thin.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Devanagari" weight="50" width="100" slant="0" langs="hi" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Devanagari Light.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Devanagari" weight="40" width="100" slant="0" langs="hi" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Devanagari ExtraLight.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Devanagari" weight="205" width="100" slant="0" langs="hi" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Devanagari ExtraBold.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Devanagari" weight="210" width="100" slant="0" langs="hi" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Devanagari Black.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Devanagari" weight="100" width="100" slant="0" langs="hi" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Devanagari Medium.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Devanagari" weight="80" width="100" slant="0" langs="hi" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Devanagari Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Devanagari" weight="200" width="100" slant="0" langs="hi" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Devanagari Bold.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Devanagari" weight="180" width="100" slant="0" langs="hi" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Devanagari SemiBold.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Mongolian" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Mongolian Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Lepcha" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Lepcha Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Pau Cin Hau" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Pau Cin Hau Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Shavian" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Shavian Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Gothic" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Gothic Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Limbu" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Limbu Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Cypriot" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Cypriot Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Zanabazar Square" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Zanabazar Square Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Old Hungarian" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Old Hungarian Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Tagalog" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Tagalog Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Khojki" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Khojki Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Math" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Math Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Warang Citi" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Warang Citi Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Anatolian Hieroglyphs" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Anatolian Hieroglyphs Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Old South Arabian" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Old South Arabian Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Serif Ahom" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Serif Ahom Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Serif Dogra" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Serif Dogra Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Bassa Vah" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Bassa Vah Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Inscriptional Pahlavi" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Inscriptional Pahlavi Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Old North Arabian" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Old North Arabian Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Yi" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Yi Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Old Sogdian" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Old Sogdian Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Khudawadi" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Khudawadi Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Syriac" weight="0" width="100" slant="0" langs="syr" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Syriac Thin.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Syriac" weight="80" width="100" slant="0" langs="syr" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Syriac Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Syriac" weight="210" width="100" slant="0" langs="syr" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Syriac Black.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Saurashtra" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Saurashtra Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Devanagari UI" weight="100" width="100" slant="0" langs="hi" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Devanagari UI Medium.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Devanagari UI" weight="50" width="100" slant="0" langs="hi" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Devanagari UI Light.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Devanagari UI" weight="80" width="100" slant="0" langs="hi" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Devanagari UI Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Devanagari UI" weight="200" width="100" slant="0" langs="hi" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Devanagari UI Bold.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Devanagari UI" weight="0" width="100" slant="0" langs="hi" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Devanagari UI Thin.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Devanagari UI" weight="210" width="100" slant="0" langs="hi" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Devanagari UI Black.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Thai Looped" weight="80" width="100" slant="0" langs="th" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Thai Looped Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Thai Looped" weight="210" width="100" slant="0" langs="th" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Thai Looped Black.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Thai Looped" weight="205" width="100" slant="0" langs="th" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Thai Looped Extrabold.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Thai Looped" weight="50" width="100" slant="0" langs="th" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Thai Looped Light.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Thai Looped" weight="40" width="100" slant="0" langs="th" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Thai Looped Extralight.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Thai Looped" weight="200" width="100" slant="0" langs="th" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Thai Looped Bold.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Thai Looped" weight="180" width="100" slant="0" langs="th" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Thai Looped SemiBold.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Thai Looped" weight="100" width="100" slant="0" langs="th" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Thai Looped Medium.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Thai Looped" weight="0" width="100" slant="0" langs="th" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Thai Looped Thin.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Newa" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Newa Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Elymaic" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Elymaic Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Osage" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Osage Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Mayan Numerals" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Mayan Numerals Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Linear A" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Linear A Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans PhagsPa" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans PhagsPa Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Gujarati UI" weight="200" width="100" slant="0" langs="gu" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Gujarati UI Bold.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Gujarati UI" weight="180" width="100" slant="0" langs="gu" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Gujarati UI SemiBold.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Gujarati UI" weight="0" width="100" slant="0" langs="gu" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Gujarati UI Thin.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Gujarati UI" weight="80" width="100" slant="0" langs="gu" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Gujarati UI Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Gujarati UI" weight="50" width="100" slant="0" langs="gu" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Gujarati UI Light.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Gujarati UI" weight="205" width="100" slant="0" langs="gu" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Gujarati UI ExtraBold.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Gujarati UI" weight="210" width="100" slant="0" langs="gu" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Gujarati UI Black.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Gujarati UI" weight="100" width="100" slant="0" langs="gu" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Gujarati UI Medium.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Multani" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Multani Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Indic Siyaq Numbers" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Indic Siyaq Numbers Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Carian" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Carian Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Sharada" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Sharada Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Brahmi" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Brahmi Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Pahawh Hmong" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Pahawh Hmong Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Egyptian Hieroglyphs" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Egyptian Hieroglyphs Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Hanunoo" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Hanunoo Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Ugaritic" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Ugaritic Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Grantha" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Grantha Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Nabataean" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Nabataean Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Miao" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Miao Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Deseret" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Deseret Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Phoenician" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Phoenician Regular.ttf" foundry="GOOG"/>
+  <font family="Noto Sans Tagbanwa" weight="80" width="100" slant="0" path="~/.local/share/fonts/Microsoft-365-Fonts/N/.Noto Sans Tagbanwa Regular.ttf" foundry="GOOG"/>
+</disabledfonts>

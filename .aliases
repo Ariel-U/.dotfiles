@@ -1,0 +1,230 @@
+#! /bin/bash
+#############################
+#         ALIASES           #
+#############################
+# navegación
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ~="cd ~"
+alias home="cd ~"
+
+# atajos
+alias c="clear"
+alias e="exit"
+alias h="history"
+alias sz="source ~/.zshrc"
+alias sb="source ~/.bashrc"
+alias update-grub="grub-mkconfig -o /boot/grub/grub.cfg"
+
+# systemd
+alias status="systemctl status"
+alias enable="sudo systemctl enable"
+alias disable="sudo systemctl disable"
+alias start="sudo systemctl start"
+alias stop="sudo systemctl stop"
+alias restart="sudo systemctl restart"
+alias {poweroff,apagar}="poweroff || sudo systemctl poweroff"
+alias {reboot,reiniciar}="reboot ||sudo systemctl reboot"
+alias {suspend,suspender}="suspend ||sudo systemctl suspend"
+alias restart-pulse="systemctl --user restart pulseaudio"
+
+
+# verbose en los comandos básicos y pedir confirmación
+alias mv="mv -vi"         #confirmar antes de sobreescribir y muestra lo que hace
+alias cp="cp -rvi"         #confirmar antes de sobreescribir y muestra lo que hace
+alias rm="rm -rfv"        #muestra lo que hace. borra directorios
+alias mkdir="mkdir -pv"   #muestra lo que hace
+alias ln="ln -vi"         #confirmar antes de sobreescribir y muestra lo que hace
+
+
+# listar archivos
+if [ -f /usr/bin/eza ]; then
+    alias ls="exa --icons --color=auto --group-directories-first -s extension" # ordena exa
+    alias l="exa --icons -1 --group-directories-first"
+    alias la="exa --icons -ag --group-directories-first"
+    alias ll="exa --icons -lag --group-directories-first"
+else
+    # establece colores en ls si no existen
+    #export LS_COLORS=$LS_COLORS:'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    alias ls="ls --color=auto --group-directories-first -vXH" # ordena ls
+    alias l="ls -w 1"
+    alias la="ls -A"
+    alias ll="ls -lhA"
+fi
+
+# gestión de paquetes
+## yay
+
+# pacman
+if [ -f /usr/bin/pacman ]; then
+    alias {update,refrescar}="sudo pacman -Syy"
+    alias {upgrade,actualizar}="sudo pacman -Syu --noconfirm ;yay -Syu --noconfirm; if [ -f /usr/bin/flatpak ] ; then flatpak update -y ; fi" # actualiza sin pedir confirmación para instalar
+    alias {install,instalar}="sudo pacman -S"
+    alias {remove,remover}="sudo pacman -R"
+    alias purge="pacman -Qtdq | sudo pacman -Rns -"
+    alias {autoremove,limpiar}="sudo pacman -Rscn"
+    alias {search,buscar}="pacman -Ss"
+    alias yays="yay -Ss"
+    alias {dep,dependencies,dependencias}="pactree -d 1 --color" # muestra dependencias de un paquete
+    alias is="pacman -Qs"
+    alias remove-f="sudo pacman -Rdd" # fuerza desinstalación a pesar de las dependencias
+    alias huerfanos="pacman -Qdtq"  # busca paquetes huérfanos
+    alias update-mirrors="sudo reflector --country Brazil,Chile,Paraguay --protocol http,https --fastest 10 --verbose --save /etc/pacman.d/mirrorlist && sudo pacman -Syy && cat  /etc/pacman.d/mirrorlist" # (solo arch)
+    #alias update-mirrors="sudo pacman-mirrors -c Chile,Uruguay,Brazil && sudo pacman -Syy" # actualiza los mirrors de los paises dados (solo manjaro)
+    alias yay="yay --aur"
+fi
+
+## apt
+if [ -f /usr/bin/apt ]; then
+  alias {update,refrescar}='sudo apt update'
+  alias {upgrade,actualizar}='sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y ; if [ -f /usr/bin/flatpak ] ; then flatpak update -y ; fi' # actualiza sin pedir confirmación para instalar
+  alias {install,instalar}='sudo apt install'
+  alias {remove,remover}="sudo apt remove"
+  alias {autoremove,limpiar}="sudo apt autoremove"
+  alias {search,buscar}="apt search"
+  alias {dep,dependencies,dependencias}="apt-cache depends"
+  alias is="apt list --installed | grep"
+fi
+
+## dnf
+if [ -f /usr/bin/dnf ]; then
+  alias {upgrade,actualizar}='sudo dnf upgrade -y'
+  alias {install,instalar}='sudo dnf install'
+  alias {remove,remover}="sudo dnf remove"
+  alias {search,buscar}="dnf search"
+fi
+
+# flags en comandos que facilitan la vida
+alias rsync="rsync -aAXv --progress"
+alias ping="ping -c 5"
+# pipewire
+alias latencia="pw-metadata -n settings 0 clock.force-quantum" 
+#scrcpy
+alias motog04='scrcpy -KwS --screen-off-timeout=3600 --tcpip=192.168.100.140:5555'
+# permite ejecutar aliases con sudo
+alias sudo="sudo "
+
+# sudo en comandos recurrentes
+alias mount="sudo mount"
+alias umount="sudo umount"
+alias blkid="sudo blkid"
+alias ufw="sudo ufw"
+alias timeshift="sudo timeshift"
+
+alias {zshrc,zr}="$EDITOR ~/.zshrc"
+alias {bashrc,br}="$EDITOR ~/.bashrc"
+alias {nanorc,nr}="$EDITOR ~/.nanorc"
+alias {aliases,al}="$EDITOR ~/.aliases "
+
+# otros aliases standard
+#alias df='df -h'      # human-readable sizes
+alias free='free -h'  # human-readable sizes
+alias more="less"
+alias grep='grep --colour=auto'
+alias egrep='egrep --colour=auto'
+alias fgrep='fgrep --colour=auto'
+
+
+
+#############################
+#       FUNCIONES           #
+#############################
+
+# mínima información de red
+function netinfo () {
+echo "gateway    : $(ip route | grep default| awk '{print $3}')" 
+echo "ip privada : $(hostname -I | awk '{print $1}') " 
+echo "ip pública : $(curl -s ifconfig.me)" 
+echo "puertos abiertos" ; sudo ss -tupln
+}
+
+
+# Create a new directory and enter it
+function mkcd() {
+	mkdir -p "$@" && cd "$_";
+}
+
+function ff () {
+    find . -iname '*'"$@"'*' -ls
+}
+
+
+  # Normalize `open` across Linux, macOS, and Windows.
+# This is needed to make the `o` function (see below) cross-platform.
+if [ ! $(uname -s) = 'Darwin' ]; then
+	if grep -q Microsoft /proc/version; then
+		# Ubuntu on Windows using the Linux subsystem
+		alias open='explorer.exe';
+	else
+		alias open='xdg-open';
+	fi
+fi
+
+# `o` with no arguments opens the current directory, otherwise opens the given
+# location
+function o() {
+	if [ $# -eq 0 ]; then
+		open .;
+	else
+		open "$@";
+	fi;
+}
+
+
+# Determine size of a file or total size of a directory
+function fs() {
+	if du -b /dev/null > /dev/null 2>&1; then
+		local arg=-sbh;
+	else
+		local arg=-sh;
+	fi
+	if [[ -n "$@" ]]; then
+		du $arg -- "$@";
+	else
+		du $arg .[^.]* ./*;
+	fi;
+}
+
+
+# get current host related info
+function sysinfo () {
+    echo -e "\n${BRed}System Informations:$NC " ; uname -a
+    echo -e "\n${BRed}Online User:$NC " ; w -hs | cut -d "" f1 | sort | uniq
+    echo -e "\n${BRed}Date :$NC " ; date
+    echo -e "\n${BRed}Server stats :$NC " ; uptime
+    echo -e "\n${BRed}Memory stats :$NC " ; free
+    echo -e "\n${BRed}Public ip address :$NC " ; host myip.opendns.com resolver1.opendns.com | grep "myip.opendns.com has" | awk '{print $4}'
+
+    echo -e "\n${BRed}Open Connections :$NC " ; netstat -pan --inet
+    echo -e "\n${BRed}CPU info :$NC " ; cat /proc/cpuinfo
+    echo -e "\n"
+}
+
+
+# # ex - archive extractor
+# # usage: ex <file>
+ex ()
+{
+  if [ -f $1 ] ; then
+    case $1 in
+      *.tar.bz2)   tar xjf $1   ;;
+      *.tar.gz)    tar xzf $1   ;;
+      *.bz2)       bunzip2 $1   ;;
+      *.rar)       unrar x $1     ;;
+      *.gz)        gunzip $1    ;;
+      *.tar)       tar xf $1    ;;
+      *.tbz2)      tar xjf $1   ;;
+      *.tgz)       tar xzf $1   ;;
+      *.zip)       unzip $1     ;;
+      *.Z)         uncompress $1;;
+      *.7z)        7z x $1      ;;
+      *)           echo "'$1' cannot be extracted via ex()" ;;
+    esac
+  else
+    echo "'$1' is not a valid file"
+  fi
+}
+
+
