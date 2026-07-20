@@ -5,7 +5,9 @@ do
     mv -v $file $file.bak
 done
 
-stow --ignore='README.md' --ignore='setup.sh' -d ~/dotfiles
+cd dotfiles
+stow --ignore='README.md' --ignore='setup.sh' .
+cd ~
 
 rsync -aAXv --ignore-existing --progress ~/.config.bak/ ~/.config
 rsync -aAXv --ignore-existing --progress ~/.local.bak/ ~/.local
