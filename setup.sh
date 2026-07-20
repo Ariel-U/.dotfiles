@@ -7,5 +7,5 @@ done
 
 stow --ignore='README.md' --ignore='setup.sh' -d ~/dotfiles
 
-rsync -aAXv --ignore-existing --progress ~/.config.bak ~/.config/
-rsync -aAXv --ignore-existing --progress ~/.local.bak ~/.local/
+rsync -aAXv --ignore-existing --progress ~/.config.bak/ ~/.config
+rsync -aAXv --ignore-existing --progress ~/.local.bak/ ~/.local
