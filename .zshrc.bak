@@ -15,9 +15,6 @@ bindkey "\e[3;5~" kill-word
 bindkey "^H" backward-kill-word
 # other
 bindkey '^ ' autosuggest-accept
-#bindkey '^R' atuin-search
-#bindkey '^H' atuin-search
-# End of lines configured by zsh-newuser-install
 
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/ariel/.zshrc'

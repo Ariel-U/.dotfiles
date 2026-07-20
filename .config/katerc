@@ -4,8 +4,6 @@ NamedColors=false
 PreviewAfterColor=true
 
 [FileDialogSize]
-1920x1080 screen: Height=584
-1920x1080 screen: Width=992
 2 screens: Height=519
 2 screens: Width=915
 
@@ -58,7 +56,7 @@ Color Theme=Breeze Dark
 Line Height Multiplier=1
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
-Text Font=BitstromWera Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+Text Font=BitstromWera Nerd Font Propo,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 Text Font Features=
 Word Wrap Marker=false
 
@@ -135,10 +133,10 @@ RunPrefix=
 SetEditor=false
 
 [MainWindow]
-1920x1080 screen: Height=715
-1920x1080 screen: Width=945
-2 screens: Height=1026
-2 screens: Width=937
+1920x1080 screen: Height=1010
+1920x1080 screen: Width=903
+2 screens: Height=1031
+2 screens: Width=1898
 
 [UiSettings]
 ColorScheme=GruvboxColors

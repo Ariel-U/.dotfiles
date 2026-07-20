@@ -84,8 +84,8 @@ KrohnkiteFloatAll=Meta+Shift+F,none,Krohnkite: Toggle Float All
 KrohnkiteFloatingLayout=Meta+F,none,Krohnkite: Floating Layout
 KrohnkiteFocusDown=Meta+Alt+Down,none,Krohnkite: Focus Down
 KrohnkiteFocusLeft=Meta+Alt+Left,none,Krohnkite: Focus Left
-KrohnkiteFocusNext=none,none,Krohnkite: Focus Next
-KrohnkiteFocusPrev=Alt+Esc,none,Krohnkite: Focus Previous
+KrohnkiteFocusNext=Alt+Esc,none,Krohnkite: Focus Next
+KrohnkiteFocusPrev=none,none,Krohnkite: Focus Previous
 KrohnkiteFocusRight=Meta+Alt+Right,none,Krohnkite: Focus Right
 KrohnkiteFocusUp=Meta+Alt+Up,none,Krohnkite: Focus Up
 KrohnkiteGrowHeight=none,none,Krohnkite: Grow Height
@@ -171,11 +171,11 @@ Switch to Desktop 24=none,none,Cambiar al escritorio 24
 Switch to Desktop 25=none,none,Cambiar al escritorio 25
 Switch to Desktop 3=Alt+3\tCtrl+F3,Ctrl+F3,Cambiar al escritorio 3
 Switch to Desktop 4=Alt+4\tCtrl+F4,Ctrl+F4,Cambiar al escritorio 4
-Switch to Desktop 5=Alt+5,,Cambiar al escritorio 5
-Switch to Desktop 6=Alt+6,,Cambiar al escritorio 6
-Switch to Desktop 7=Alt+7,,Cambiar al escritorio 7
-Switch to Desktop 8=Alt+8,,Cambiar al escritorio 8
-Switch to Desktop 9=Alt+9,,Cambiar al escritorio 9
+Switch to Desktop 5=none,,Cambiar al escritorio 5
+Switch to Desktop 6=none,,Cambiar al escritorio 6
+Switch to Desktop 7=none,,Cambiar al escritorio 7
+Switch to Desktop 8=none,,Cambiar al escritorio 8
+Switch to Desktop 9=none,,Cambiar al escritorio 9
 Switch to Next Desktop=none,,Cambiar al siguiente escritorio
 Switch to Next Screen=none,,Cambiar a la siguiente pantalla
 Switch to Previous Desktop=none,,Cambiar al escritorio anterior
@@ -346,7 +346,7 @@ activate task manager entry 9=Meta+9,Meta+9,Activar la entrada 9 del gestor de t
 activate widget 161=none,none,Activar el elemento gráfico Compact Pager
 activate widget 177=none,none,Activar el elemento gráfico PlasMusic Toolbar
 activate widget 183=none,none,Activar el elemento gráfico Gestor de tareas con iconos y texto
-activate widget 238=none,none,Activar el elemento gráfico SCP Menu Reborn
+activate widget 229=Meta,none,Activar el elemento gráfico Andromeda Launcher
 activate widget 4=none,none,Activar el elemento gráfico Lanzador de aplicaciones
 activate widget 56=none,none,Activar el elemento gráfico Reloj digital
 activate widget 59=none,none,Activar el elemento gráfico Gestor de tareas con iconos y texto
@@ -404,9 +404,6 @@ _launch=none
 
 [services][org.kde.konsole.desktop]
 _launch=Meta+Return
-
-[services][org.kde.krunner.desktop]
-_launch=Search\tAlt+Space\tAlt+F2\tMeta
 
 [yakuake]
 _k_friendly_name=Yakuake

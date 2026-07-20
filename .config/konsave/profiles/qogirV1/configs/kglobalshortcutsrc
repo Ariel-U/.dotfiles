@@ -1,7 +1,8 @@
 [ActivityManager]
 _k_friendly_name=Gestor de actividades
-switch-to-activity-0ee555ed-a6bb-4b37-a5ca-8d7122e2af77=none,none,Cambiar a la actividad «Por omisión»
+switch-to-activity-0ee555ed-a6bb-4b37-a5ca-8d7122e2af77=none,none,Cambiar a la actividad «Mosaicos»
 switch-to-activity-90d07560-95f5-467c-b1c4-d465ca57a211=none,none,Cambiar a la actividad «Actividad 1»
+switch-to-activity-c6198dea-1e59-438f-b9af-c0cb25794065=none,none,Cambiar a la actividad «Flotante»
 
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to Español=none,none,Cambiar la distribución de teclado a Español

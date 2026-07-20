@@ -4,7 +4,8 @@
 [Desktops]
 Id_1=dabb469a-356c-4762-b844-316f6475852d
 Id_2=76e2de15-a9cf-4fcb-8d2b-3118a7ea54a5
-Number=2
+Id_3=7e616f8a-70c3-423a-aaec-36917a4bcfdc
+Number=3
 Rows=1
 
 [Effect-bouncingWindows][Effect-bouncingWindows]

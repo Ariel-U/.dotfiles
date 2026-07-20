@@ -1,0 +1,9 @@
+<meta http-equiv="content-type" content="text/html; charset=utf-8"><pre class="code svelte-1fz0gqk" data-lang="zsh"><code class="svelte-1fz0gqk"><span class="hljs-comment"># Cargar compinit antes de fzf-tab</span>
+<span class="hljs-built_in">autoload</span> -Uz compinit &amp;&amp; compinit
+
+<span class="hljs-comment"># Cargar fzf-tab</span>
+zinit light Aloxaf/fzf-tab
+
+<span class="hljs-comment"># Configurar el estilo del menú</span>
+<span class="hljs-built_in">zstyle</span> <span class="hljs-string">':completion:*'</span> menu <span class="hljs-keyword">select</span>
+<span class="hljs-built_in">zstyle</span> <span class="hljs-string">':completion:*'</span> matcher-list <span class="hljs-string">'m:{a-zA-Z}={A-Za-z}'</span> <span class="hljs-string">'r:|=*'</span> <span class="hljs-string">'l:|=* r:|=*'</span></code></pre>

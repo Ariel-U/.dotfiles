@@ -33,3 +33,6 @@ MenuBar=Disabled
 
 [PreviewSettings]
 Plugins=appimagethumbnail,cursorthumbnail,audiothumbnail,fontthumbnail,ffmpegthumbs,djvuthumbnail,directorythumbnail,kraorathumbnail,opendocumentthumbnail,windowsexethumbnail,imagethumbnail,windowsimagethumbnail,exrthumbnail,jpegthumbnail,svgthumbnail,comicbookthumbnail,ebookthumbnail
+
+[Search]
+Location=Everywhere
