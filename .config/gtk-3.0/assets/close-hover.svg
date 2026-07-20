@@ -7,22 +7,16 @@
 </defs>
 <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
 
-<g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(2.27273,0,0,2.27273,-52.2727,0)"
-font-family="Bitstream Vera Sans" font-size="10" font-weight="400" font-style="normal" 
-opacity="0.00100002" >
-<rect x="23" y="0" width="22" height="22"/>
-</g>
-
-<g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(2.27273,0,0,2.27273,-52.2727,0)"
-font-family="Bitstream Vera Sans" font-size="10" font-weight="400" font-style="normal" 
-opacity="0.08" >
-<circle cx="34" cy="11" r="11"/>
-</g>
-
-<g fill="#dfdfdf" fill-opacity="1" stroke="none" transform="matrix(2.27273,0,0,2.27273,-52.2727,0)"
+<g fill="#ff5555" fill-opacity="1" stroke="none" transform="matrix(4.97315,0,0,6.29921,-217.108,-889.197)"
 font-family="Bitstream Vera Sans" font-size="10" font-weight="400" font-style="normal" 
 >
-<path vector-effect="none" fill-rule="nonzero" d="M29,6 L29,7.41406 L32.5859,11 L29,14.5859 L29,16 L30.4141,16 L34,12.4141 L37.5859,16 L39,16 L39,14.5859 L35.4141,11 L39,7.41406 L39,6 L37.5859,6 L34,9.58594 L30.4141,6 L29,6"/>
+<path vector-effect="none" fill-rule="evenodd" d="M43.656,141.16 C43.656,141.16 43.656,141.16 43.656,141.16 L53.71,141.16 C53.71,141.16 53.71,141.16 53.71,141.16 L53.71,149.097 C53.71,149.097 53.71,149.097 53.71,149.097 L43.656,149.097 C43.656,149.097 43.656,149.097 43.656,149.097 L43.656,141.16"/>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(4.97315,0,0,6.29921,-217.108,-889.197)"
+font-family="Bitstream Vera Sans" font-size="10" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="nonzero" d="M47.454,143.71 L47.2669,143.897 L48.4963,145.126 L47.2669,146.355 L47.454,146.542 L48.6834,145.314 L49.9123,146.542 L50.0994,146.355 L48.8705,145.126 L50.0994,143.897 L49.9123,143.71 L48.6834,144.939 L47.454,143.71"/>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"

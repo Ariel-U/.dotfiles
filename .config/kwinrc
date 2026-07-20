@@ -1,15 +1,11 @@
 [Activities][LastVirtualDesktop]
-0ee555ed-a6bb-4b37-a5ca-8d7122e2af77=6d94f7c3-7620-4309-b95c-2e772dfaf8dc
+0ee555ed-a6bb-4b37-a5ca-8d7122e2af77=dabb469a-356c-4762-b844-316f6475852d
 c6198dea-1e59-438f-b9af-c0cb25794065=dabb469a-356c-4762-b844-316f6475852d
 
 [Desktops]
 Id_1=dabb469a-356c-4762-b844-316f6475852d
 Id_2=76e2de15-a9cf-4fcb-8d2b-3118a7ea54a5
-Id_3=8100b8f6-2e5e-4725-844d-03163cf63ae4
-Id_4=faf22740-dca7-4ff9-8faf-05445455f57c
-Id_5=6d94f7c3-7620-4309-b95c-2e772dfaf8dc
-Id_6=452154ba-9c05-4277-8555-4bf284f34b0b
-Number=6
+Number=2
 Rows=1
 
 [Effect-bouncingWindows][Effect-bouncingWindows]
@@ -450,4 +446,4 @@ Scale=1
 BorderSize=Normal
 ButtonsOnLeft=MFS
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__ChromeOS
+theme=__aurorae__svg__Qogir-dark

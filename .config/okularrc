@@ -3,7 +3,7 @@ FullScreen=false
 
 [General]
 LockSidebar=true
-ShowSidebar=true
+ShowSidebar=false
 
 [Recent Files]
 File1[$e]=$HOME/Documentos/Gymnopedie No.1 - Gymnopedie1.pdf

@@ -3,6 +3,10 @@ Mis dotfiles
 Depende de [stow](https://github.com/aspiers/stow)
 
 # EXPERIMENTAL
+## install dependencies
+```bash
+sudo apt install git rsync stow
+```
 
 ## clone repo
 ```bash
