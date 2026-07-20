@@ -1,5 +1,5 @@
-mv -v .config .config.bak
-mv -v .local .local.bak
+mv -v ~/.config ~/.config.bak
+mv -v ~/.local ~/.local.bak
 for file in $HOME/.{bashrc,aliases,zshrc,vimrc,tmux.conf,nanorc}
 do
     mv -v $file $file.bak
