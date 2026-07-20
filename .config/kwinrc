@@ -5,8 +5,10 @@ c6198dea-1e59-438f-b9af-c0cb25794065=dabb469a-356c-4762-b844-316f6475852d
 [Desktops]
 Id_1=dabb469a-356c-4762-b844-316f6475852d
 Id_2=76e2de15-a9cf-4fcb-8d2b-3118a7ea54a5
-Id_3=e6c9ffba-c8e4-4be0-9b2d-ac24c36d0c60
-Number=3
+Id_3=8100b8f6-2e5e-4725-844d-03163cf63ae4
+Id_4=faf22740-dca7-4ff9-8faf-05445455f57c
+Id_5=6d94f7c3-7620-4309-b95c-2e772dfaf8dc
+Number=5
 Rows=1
 
 [Effect-bouncingWindows][Effect-bouncingWindows]
@@ -57,9 +59,7 @@ floatingTitle=Pantalla en pantalla,Picture-in-picture
 ignoreActivity=c6198dea-1e59-438f-b9af-c0cb25794065%
 ignoreClass=krunner,yakuake,spectacle,kded5,xwaylandvideobridge,plasmashell,ksplashqml,org.kde.plasmashell,org.kde.polkit-kde-authentication-agent-1,org.kde.kruler,kruler,kwin_wayland,ksmserver-logout-greeter,Dr konqi
 ignoreTitle=Vital
-layoutPerDesktop=false
 monocleLayoutOrder=5
-noTileBorder=true
 quarterLayoutOrder=4
 screenGapBetween=10
 screenGapBottom=10
