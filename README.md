@@ -4,6 +4,11 @@ Depende de [stow](https://github.com/aspiers/stow)
 
 # EXPERIMENTAL
 
+## clone repo
+```bash
+git clone https://github.com/Ariel-U/dotfiles.git
+```
+
 ## make backups
 ```bash
 mv -v ~/.config ~/.config.bak
@@ -18,7 +23,7 @@ done
 ## use stow to link the dotfiles
 ```bash
 cd dotfiles
-stow --ignore='README.md' --ignore='setup.sh' .
+stow --ignore='README.md' .
 cd ~
 ```
 
