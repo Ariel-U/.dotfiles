@@ -1,15 +1,3 @@
-2026/07/18-20:35:47.062 5 Reusing MANIFEST /home/ariel/.config/net.imput.helium/Default/Session Storage/MANIFEST-000001
-2026/07/18-20:35:47.063 5 Recovering log #15
-2026/07/18-20:35:47.063 5 Reusing old log /home/ariel/.config/net.imput.helium/Default/Session Storage/000015.log 
-2026/07/18-20:51:58.493 7 Level-0 table #19: started
-2026/07/18-20:51:58.496 7 Level-0 table #19: 22015 bytes OK
-2026/07/18-20:51:58.502 7 Delete type=0 #15
-2026/07/18-20:51:58.502 7 Compacting 4@0 + 1@1 files
-2026/07/18-20:51:58.508 7 Generated table #20@0: 412 keys, 32995 bytes
-2026/07/18-20:51:58.508 7 Compacted 4@0 + 1@1 files => 32995 bytes
-2026/07/18-20:51:58.511 7 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/07/18-20:51:58.512 7 Delete type=2 #16
-2026/07/18-20:51:58.512 7 Delete type=2 #11
-2026/07/18-20:51:58.512 7 Delete type=2 #8
-2026/07/18-20:51:58.512 7 Delete type=2 #13
-2026/07/18-20:51:58.512 7 Delete type=2 #19
+2026/07/19-01:02:02.164 5 Reusing MANIFEST /home/ariel/.config/net.imput.helium/Default/Session Storage/MANIFEST-000001
+2026/07/19-01:02:02.165 5 Recovering log #18
+2026/07/19-01:02:02.165 5 Reusing old log /home/ariel/.config/net.imput.helium/Default/Session Storage/000018.log 

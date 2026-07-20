@@ -138,7 +138,7 @@ SetEditor=false
 1920x1080 screen: Height=715
 1920x1080 screen: Width=945
 2 screens: Height=1060
-2 screens: Width=945
+2 screens: Width=1900
 
 [UiSettings]
 ColorScheme=GruvboxColors

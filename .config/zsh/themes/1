@@ -1,0 +1,6 @@
+#! /bin/zsh
+# Color prompt
+# Supported Colors: red, blue, green, cyan, yellow, magenta, black, & white
+
+PROMPT="%(!.%{$fg_bold[red]%}[%m@%n] %{$fg[white]%}[%~] %{$reset_color%}.%{$fg_bold[blue]%}[%n@%m] %{$fg[white]%}[%~] %{$reset_color%})
+%(?:%{$fg_bold[green]%}%(!.# .•• )%{$reset_color%} :%{$fg_bold[red]%}%(!.# .•• )%{$reset_color%})"

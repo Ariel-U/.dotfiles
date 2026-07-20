@@ -1,11 +1,11 @@
 [Activities][LastVirtualDesktop]
-0ee555ed-a6bb-4b37-a5ca-8d7122e2af77=e23d39b4-ff36-4680-b490-a6c35f7ef8ef
+0ee555ed-a6bb-4b37-a5ca-8d7122e2af77=76e2de15-a9cf-4fcb-8d2b-3118a7ea54a5
 c6198dea-1e59-438f-b9af-c0cb25794065=dabb469a-356c-4762-b844-316f6475852d
 
 [Desktops]
 Id_1=dabb469a-356c-4762-b844-316f6475852d
 Id_2=76e2de15-a9cf-4fcb-8d2b-3118a7ea54a5
-Id_3=e23d39b4-ff36-4680-b490-a6c35f7ef8ef
+Id_3=e6c9ffba-c8e4-4be0-9b2d-ac24c36d0c60
 Number=3
 Rows=1
 
@@ -449,4 +449,4 @@ Scale=1
 BorderSize=Normal
 ButtonsOnLeft=MFS
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__ActiveAccentFrame
+theme=__aurorae__svg__ChromeOS
