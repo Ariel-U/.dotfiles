@@ -26,7 +26,7 @@ zstyle ':completion:*'  matcher-list 'm:{a-zA-Z}={A-Za-z}' 'r:|=*' 'l:|=* r:|=*'
 # End of lines added by compinstall
 
 # Color prompt
-source $HOME/.config/zsh/prompts/1
+source $HOME/.config/zsh/themes/1
 
 # establecer el editor de la terminal 
 if [ -f /bin/micro ]; then
