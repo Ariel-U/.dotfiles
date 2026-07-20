@@ -1,11 +1,12 @@
 [Activities][LastVirtualDesktop]
-0ee555ed-a6bb-4b37-a5ca-8d7122e2af77=dabb469a-356c-4762-b844-316f6475852d
+0ee555ed-a6bb-4b37-a5ca-8d7122e2af77=76e2de15-a9cf-4fcb-8d2b-3118a7ea54a5
 c6198dea-1e59-438f-b9af-c0cb25794065=dabb469a-356c-4762-b844-316f6475852d
 
 [Desktops]
 Id_1=dabb469a-356c-4762-b844-316f6475852d
 Id_2=76e2de15-a9cf-4fcb-8d2b-3118a7ea54a5
-Number=2
+Id_3=1e68f6cd-1b5f-4e42-83b7-2c78e3c7cf33
+Number=3
 Rows=1
 
 [Effect-bouncingWindows][Effect-bouncingWindows]

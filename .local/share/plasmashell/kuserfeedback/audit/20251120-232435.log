@@ -1,0 +1,39 @@
+{
+    "applicationVersion": {
+        "data": {
+            "value": "6.5.2"
+        },
+        "description": "La versión de la aplicación.",
+        "telemetryMode": "BasicSystemInformation"
+    },
+    "compiler": {
+        "data": {
+            "type": "GCC",
+            "version": "15.2"
+        },
+        "description": "El compilador usado para construir esta aplicación.",
+        "telemetryMode": "BasicSystemInformation"
+    },
+    "platform": {
+        "data": {
+            "os": "linux",
+            "version": "arch"
+        },
+        "description": "Tipo y versión del sistema operativo.",
+        "telemetryMode": "BasicSystemInformation"
+    },
+    "qpa": {
+        "data": {
+            "name": "wayland"
+        },
+        "description": "El complemento de la abstracción de la plataforma Qt.",
+        "telemetryMode": "BasicSystemInformation"
+    },
+    "qtVersion": {
+        "data": {
+            "value": "6.10.0"
+        },
+        "description": "La versión de Qt que usa esta aplicación.",
+        "telemetryMode": "BasicSystemInformation"
+    }
+}
