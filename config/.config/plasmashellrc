@@ -10,7 +10,7 @@ detailViewIconSize=128
 iconViewIconSize=226
 
 [PlasmaViews][Panel 114]
-floating=1
+floating=0
 floatingApplets=1
 panelOpacity=0
 

@@ -5,5 +5,5 @@ RequirePassword=false
 Timeout=0
 
 [Greeter][Wallpaper][org.kde.image][General]
-Image=/mnt/HHD/Imágenes/Wallpapers/Dibujo-Render/astronaut-nord.png
-PreviewImage=/mnt/HHD/Imágenes/Wallpapers/Dibujo-Render/astronaut-nord.png
+Image=/mnt/HHD/Imágenes/Wallpapers/Dibujo-Render/Astronauta.jpg
+PreviewImage=/mnt/HHD/Imágenes/Wallpapers/Dibujo-Render/Astronauta.jpg

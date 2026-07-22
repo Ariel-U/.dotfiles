@@ -98,10 +98,9 @@ skiptaskbar=true
 skiptaskbarrule=3
 title=Picture-in-picture
 titlematch=3
-types=1
 wmclass=firefox
 wmclasscomplete=true
-wmclassmatch=3
+wmclassmatch=1
 
 [681738e0-c269-4949-ae41-e7779ffb85c8]
 Description=Scrcpy

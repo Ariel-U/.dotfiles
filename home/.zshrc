@@ -25,6 +25,7 @@ zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
+zinit load zshzoo/cd-ls   
 
 # Add in snippets
 zinit snippet OMZL::git.zsh
@@ -85,15 +86,12 @@ fi
 # establecer el editor de la terminal
 if [ -f /bin/micro ]; then
     export EDITOR=/bin/micro
-    alias {editar,editor,ed}="micro"
-
 elif [ -f /bin/nano ]; then
     export EDITOR=/bin/nano
-    alias {editar,editor,ed}="nano"
 elif [ -f /bin/vim ]; then
     export EDITOR=/bin/vim
-    alias {editar,editor,ed}="vim"
 fi
+
 
 export PATH="/home/$USER/.local/bin:$PATH"
 
