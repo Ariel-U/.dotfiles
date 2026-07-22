@@ -10,7 +10,8 @@ sudo apt install git rsync stow
 
 ## clone repo
 ```bash
-git clone https://github.com/Ariel-U/dotfiles.git
+git clone https://github.com/Ariel-U/.dotfiles.git
+cd .dotfiles
 ```
 
 ## make backups
@@ -18,7 +19,7 @@ git clone https://github.com/Ariel-U/dotfiles.git
 mv -v ~/.config ~/.config.bak
 mv -v ~/.local ~/.local.bak
 
-for file in $HOME/.{bashrc,aliases,zshrc,vimrc,tmux.conf,nanorc}
+for file in $HOME/.{bashrc,aliases,zshrc,nanorc,p10k.zsh}
 do
     mv -v $file $file.bak
 done
@@ -26,12 +27,10 @@ done
 
 ## use stow to link the dotfiles
 ```bash
-cd dotfiles
-stow --ignore='README.md' .
-cd ~
+stow config local home
 ```
 
-## restore backups that are not in dotfiles folder
+## restore backups that are not in .dotfiles folder
 ```bash
 rsync -aAXv --ignore-existing --progress ~/.config.bak/ ~/.config/
 rsync -aAXv --ignore-existing --progress ~/.local.bak/ ~/.local/
@@ -39,5 +38,5 @@ rsync -aAXv --ignore-existing --progress ~/.local.bak/ ~/.local/
 
 ## remove backups
 ```bash
-rm -rf .config.bak .local.bak
+rm -rf ~/.config.bak ~/.local.bak
 ```

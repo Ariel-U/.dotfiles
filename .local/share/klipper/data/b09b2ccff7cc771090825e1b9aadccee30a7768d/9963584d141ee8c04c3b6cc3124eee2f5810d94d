@@ -1,5 +1,0 @@
-<meta http-equiv="content-type" content="text/html; charset=utf-8"><pre class="lang-bash s-code-block"><div class="mtn4 d-flex jc-end ps-sticky l0 mrn4" data-nosnippet=""></div><code data-highlighted="yes" class="hljs language-bash"><span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> $(<span class="hljs-built_in">seq</span> 1 10);
-<span class="hljs-keyword">do</span>
-    <span class="hljs-built_in">echo</span> <span class="hljs-variable">$i</span>
-<span class="hljs-keyword">done</span>
-</code></pre>
