@@ -7,16 +7,16 @@
 </defs>
 <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
 
-<g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(4.97315,0,0,6.29921,-305.267,-889.071)"
-font-family="Bitstream Vera Sans" font-size="10" font-weight="400" font-style="normal" 
-opacity="0.25" >
-<path vector-effect="none" fill-rule="evenodd" d="M61.383,141.14 C61.383,141.14 61.383,141.14 61.383,141.14 L71.437,141.14 C71.437,141.14 71.437,141.14 71.437,141.14 L71.437,149.077 C71.437,149.077 71.437,149.077 71.437,149.077 L61.383,149.077 C61.383,149.077 61.383,149.077 61.383,149.077 L61.383,141.14"/>
-</g>
-
-<g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(4.97315,0,0,6.29921,-305.267,-889.071)"
+<g fill="#474c51" fill-opacity="1" stroke="none" transform="matrix(2.5,0,0,2.5,2.5,2.5)"
 font-family="Bitstream Vera Sans" font-size="10" font-weight="400" font-style="normal" 
 >
-<path vector-effect="none" fill-rule="nonzero" d="M65.617,143.79 L65.617,144.319 L65.0878,144.319 L65.0878,146.436 L67.2045,146.436 L67.2045,145.907 L67.7337,145.907 L67.7337,143.79 L65.617,143.79 M65.8816,144.055 L67.4691,144.055 L67.4691,145.642 L67.2045,145.642 L67.2045,144.319 L65.8816,144.319 L65.8816,144.055 M65.3524,144.584 L66.9399,144.584 L66.9399,146.171 L65.3524,146.171 L65.3524,144.584"/>
+<circle cx="9" cy="9" r="9"/>
+</g>
+
+<g fill="none" stroke="#202428" stroke-opacity="1" stroke-width="1.01" stroke-linecap="round" stroke-linejoin="round" transform="matrix(2.5,0,0,2.5,2.5,2.5)"
+font-family="Bitstream Vera Sans" font-size="10" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M4,9 L9,4 L14,9 L9,14 L4,9"/>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"

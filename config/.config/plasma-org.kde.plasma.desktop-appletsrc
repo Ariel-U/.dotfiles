@@ -384,6 +384,12 @@ Image=file:///usr/share/wallpapers/Next/
 [Containments][84][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/Next/
 
+[Containments][9][Applets][26][Configuration]
+PreloadWeight=42
+
+[Containments][9][Applets][27][Configuration]
+PreloadWeight=42
+
 [Containments170Appletsts][231][Configuration][General]
 displayPosition=Bottom
 

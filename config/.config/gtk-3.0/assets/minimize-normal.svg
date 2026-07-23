@@ -7,10 +7,10 @@
 </defs>
 <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
 
-<g fill="#000000" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1,0,0,1,0,0)"
+<g fill="none" stroke="#fcfcfc" stroke-opacity="1" stroke-width="1.01" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(2.5,0,0,2.5,2.5,2.5)"
 font-family="Bitstream Vera Sans" font-size="10" font-weight="400" font-style="normal" 
-opacity="0.75" >
-<image x="-5" y="-5" width="60" height="60" preserveAspectRatio="none" image-rendering="optimizeQuality" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACW9GRnP////7////+wAF/NJvAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAQ0lEQVRoge3OsQnAMBADQBXZv/AkniXzBJQZYnjS3IFKCSUAAAAAAAAA49quts/HrMlP1+R4kjvJPugAAAAAAADA714ZPzkjqgOv3wAAAABJRU5ErkJggg==" />
+>
+<polyline fill="none" vector-effect="none" points="4,7 9,12 14,7 " />
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
