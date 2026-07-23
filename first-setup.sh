@@ -9,7 +9,7 @@ mv -v ~/.local ~/.local.bak && mkdir ~/.local
 # copy files whith rsync
 rsync -aAXv config/.config/ $HOME/.config/
 rsync -aAXv local/.local/ $HOME/.local/
-rsync -aAXv home// $HOME/
+rsync -aAXv home/ $HOME/
 
 ## use stow to link the dotfiles
 stow --adopt config
