@@ -2,9 +2,11 @@ Mis dotfiles
 
 # EXPERIMENTAL
 ## Dependencias 
-```bash
-git rsync stow
-```
+
+- git
+- rsync
+- stow
+
 
 ## Clonar repo y cambiar directorio
 ```bash
