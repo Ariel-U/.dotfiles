@@ -53,6 +53,8 @@ bindkey '^ ' autosuggest-accept # other
 
 
 # History
+zinit ice lucid wait'0'
+zinit light joshskidmore/zsh-fzf-history-search
 HISTSIZE=5000
 HISTFILE=~/.zsh_history
 SAVEHIST=$HISTSIZE

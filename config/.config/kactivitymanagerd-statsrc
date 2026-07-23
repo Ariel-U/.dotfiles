@@ -22,6 +22,12 @@ ordering=applications:systemsettings.desktop,applications:org.kde.discover.deskt
 [Favorites-org.kde.plasma.kickoff.favorites.instance-180-global]
 ordering=applications:systemsettings.desktop,applications:org.kde.discover.desktop,applications:cockos-reaper.desktop,applications:com.stremio.Stremio.desktop
 
+[Favorites-org.kde.plasma.kickoff.favorites.instance-233-0ee555ed-a6bb-4b37-a5ca-8d7122e2af77]
+ordering=applications:cockos-reaper.desktop,applications:Decent Sampler.desktop,applications:guitarix.desktop,applications:org.guitarix.Guitarix.desktop,applications:Vital.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-233-global]
+ordering=applications:cockos-reaper.desktop,applications:Decent Sampler.desktop,applications:guitarix.desktop,applications:org.guitarix.Guitarix.desktop,applications:Vital.desktop
+
 [Favorites-org.kde.plasma.kickoff.favorites.instance-4-0ee555ed-a6bb-4b37-a5ca-8d7122e2af77]
 ordering=applications:io.anytype.anytype.desktop,applications:com.stremio.Stremio.desktop,applications:com.mastermindzh.tidal-hifi.desktop,applications:youtube-music-desktop-app.desktop,applications:info.cemu.Cemu.desktop
 
