@@ -135,7 +135,7 @@ SetEditor=false
 [MainWindow]
 1920x1080 screen: Height=1010
 1920x1080 screen: Width=903
-2 screens: Height=482
+2 screens: Height=664
 2 screens: Width=943
 
 [UiSettings]

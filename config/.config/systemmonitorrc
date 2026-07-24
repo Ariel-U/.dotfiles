@@ -1,5 +1,0 @@
-[General]
-hiddenPages=overview.page,history.page
-lastVisitedPage=GPU_Util.page
-pageOrder=overview.page,applications.page,history.page,processes.page,GPU_Util.page
-startPage=

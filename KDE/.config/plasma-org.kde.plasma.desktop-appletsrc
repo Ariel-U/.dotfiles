@@ -282,7 +282,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][193][Applets][206][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][193][Applets][207][Configuration]
 PreloadWeight=42
@@ -308,18 +308,25 @@ PreloadWeight=42
 [Containments][193][Applets][240][Configuration]
 PreloadWeight=42
 
-[Containments][193][Applets][267]
+[Containments][193][Applets][267][Configuration]
+PreloadWeight=42
+
+[Containments][193][Applets][268]
 immutability=1
-plugin=org.kde.kscreen
+plugin=org.kde.plasma.brightness
+
+[Containments][193][Applets][268][Configuration]
+PreloadWeight=52
 
 [Containments][193][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
 [Containments][193][General]
-extraItems=org.kde.kdeconnect,org.kde.plasma.volume,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.kscreen
+extraItems=org.kde.kdeconnect,org.kde.plasma.volume,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.brightness
 hiddenItems=Pasarela de vídeo Xwayland_pipewireToXProxy,Yakuake,org.kde.plasma.battery,org.kde.plasma.clipboard
 knownItems=org.kde.plasma.keyboardindicator,org.kde.plasma.printmanager,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.kupapplet,org.kde.plasma.devicenotifier,org.kde.plasma.bluetooth,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.kscreen,org.kde.plasma.clipboard,org.kde.plasma.cameraindicator,org.kde.plasma.battery,org.kde.plasma.manage-inputmethod
+shownItems=org.kde.plasma.brightness
 
 [Containments][236]
 activityId=

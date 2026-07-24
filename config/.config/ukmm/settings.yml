@@ -1,8 +1,0 @@
-current_mode: WiiU
-system_7z: true
-storage_dir: /home/ariel/.local/share/ukmm
-check_updates: Stable
-show_changelog: true
-last_version: 0.15.0
-wiiu_config: null
-switch_config: null

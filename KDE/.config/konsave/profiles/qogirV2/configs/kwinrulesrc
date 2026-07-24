@@ -1,0 +1,117 @@
+[0c4896a3-22e9-4d09-9ef4-1897ec975247]
+ignoregeometry=true
+ignoregeometryrule=2
+
+[387b487a-8f6a-4fc0-a2cf-375f4f90a45f]
+Description=Brave pip
+above=true
+aboverule=3
+acceptfocusrule=2
+desktops=\\0
+desktopsrule=3
+position=1536,803
+positionrule=4
+size=693,390
+sizerule=4
+skiptaskbar=true
+skiptaskbarrule=3
+title=Pantalla en pantalla
+titlematch=3
+types=1
+wmclass=brave
+wmclasscomplete=true
+wmclassmatch=3
+
+[4b07b3d6-9635-4db0-a63d-c7ca95385c11]
+Description=Zen pip
+above=true
+aboverule=3
+desktops=\\0
+desktopsrule=3
+position=1280,688
+positionrule=4
+skippager=true
+skippagerrule=3
+skiptaskbar=true
+skiptaskbarrule=3
+title=Picture-in-Picture
+titlematch=3
+wmclass=app.zen_browser.zen
+wmclasscomplete=true
+wmclassmatch=3
+
+[681738e0-c269-4949-ae41-e7779ffb85c8]
+Description=Scrcpy
+above=true
+aboverule=3
+skiptaskbar=true
+skiptaskbarrule=2
+title=moto g04s
+titlematch=3
+types=1
+wmclass=scrcpy scrcpy
+wmclasscomplete=true
+wmclassmatch=3
+
+[6c2e2650-0e17-4d7e-8448-053f2047d2bf]
+Description=Reglas de todas las ventanas
+maximizehorizrule=2
+maximizevertrule=2
+minimizerule=2
+
+[8304d3ad-b8c1-4a57-a8fe-0826c3499b10]
+Description=Dolphin
+size=1000,618
+sizerule=3
+types=1
+wmclass=org.kde.dolphin
+wmclasscomplete=true
+wmclassmatch=1
+
+[8eb2465e-3cba-4ad6-a55c-e478bb7d057e]
+Description=Steam
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+title=Steam
+titlematch=1
+types=1
+wmclass=steamwebhelper steam
+wmclasscomplete=true
+wmclassmatch=3
+
+[932afe07-9b5b-4c12-906a-92d2c535e0ad]
+Description=Kate
+Enabled=false
+size=1000,618
+sizerule=3
+title=Bienvenido — Kate
+types=1
+wmclass=kate org.kde.kate
+wmclasscomplete=true
+wmclassmatch=1
+
+[General]
+count=9
+rules=6c2e2650-0e17-4d7e-8448-053f2047d2bf,387b487a-8f6a-4fc0-a2cf-375f4f90a45f,4b07b3d6-9635-4db0-a63d-c7ca95385c11,681738e0-c269-4949-ae41-e7779ffb85c8,8eb2465e-3cba-4ad6-a55c-e478bb7d057e,aef2c0ed-32ab-4084-9b16-6344b2915fe9,8304d3ad-b8c1-4a57-a8fe-0826c3499b10,932afe07-9b5b-4c12-906a-92d2c535e0ad,d8531b3d-ad86-433d-81ec-691610bca44a
+
+[aef2c0ed-32ab-4084-9b16-6344b2915fe9]
+Description=konsole
+size=1000,618
+sizerule=3
+types=1
+wmclass=org.kde.konsole
+wmclasscomplete=true
+wmclassmatch=3
+
+[d8531b3d-ad86-433d-81ec-691610bca44a]
+Description=Monitor de kde
+size=1200,740
+sizerule=3
+title=Performance — Monitor del sistema
+titlematch=3
+types=1
+wmclass=plasma-systemmonitor org.kde.plasma-systemmonitor
+wmclasscomplete=true
+wmclassmatch=1

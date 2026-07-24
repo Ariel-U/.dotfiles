@@ -1,8 +1,0 @@
-[Adapters]
-E8:48:B8:C8:20:00_powered=true
-
-[Devices]
-connectedDevices=
-
-[Global]
-launchState=enable

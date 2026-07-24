@@ -6,7 +6,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # Set the directory we want to store zinit and plugins
-ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/dotfiles/.local/share}/zinit/zinit.git"
+ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 
 # Download Zinit, if it's not there yet
 if [ ! -d "$ZINIT_HOME" ]; then
@@ -26,6 +26,8 @@ zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
 zinit load zshzoo/cd-ls   
+
+
 
 # Add in snippets
 zinit snippet OMZL::git.zsh
@@ -78,7 +80,7 @@ zstyle ':completion:*' menu select
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 zstyle ':completion:*' insert-tab true
-
+setopt auto_cd
 
 # Aliases
 if [ -f ~/.aliases ]; then
@@ -98,3 +100,8 @@ fi
 export PATH="/home/$USER/.local/bin:$PATH"
 
 
+
+
+
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv zsh)"

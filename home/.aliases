@@ -1,7 +1,3 @@
-#! /bin/bash
-#############################
-#         ALIASES           #
-#############################
 # navegación
 alias ..="cd .."
 alias ...="cd ../.."
@@ -114,10 +110,6 @@ alias blkid="sudo blkid"
 alias ufw="sudo ufw"
 alias timeshift="sudo timeshift"
 
-alias {zshrc,zr}="$EDITOR ~/.zshrc"
-alias {bashrc,br}="$EDITOR ~/.bashrc"
-alias {nanorc,nr}="$EDITOR ~/.nanorc"
-alias {aliases,al}="$EDITOR ~/.aliases "
 
 # otros aliases standard
 #alias df='df -h'      # human-readable sizes

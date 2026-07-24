@@ -9,9 +9,6 @@ Number of Actions=0
 detailViewIconSize=128
 iconViewIconSize=226
 
-[PlasmaTransientsConfig]
-PreloadWeight=34
-
 [PlasmaViews][Panel 114]
 floating=0
 floatingApplets=1
