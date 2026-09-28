@@ -6,5 +6,5 @@ RequirePassword=false
 Timeout=0
 
 [Greeter][Wallpaper][org.kde.image][General]
-Image=/home/ariel/Imágenes/wallpapers/Dibujo-Render/forrest_foxes.jpg
-PreviewImage=/home/ariel/Imágenes/wallpapers/Dibujo-Render/forrest_foxes.jpg
+Image=/home/ariel/Imágenes/wallpapers/Logos/kde.jpg
+PreviewImage=/home/ariel/Imágenes/wallpapers/Logos/kde.jpg

@@ -24,6 +24,9 @@ alias rp="systemctl --user restart pipewire"
 alias rb="systemctl --user restart plasma-powerdevil"
 alias rk="kwin_wayland --replace"
 
+# flatpak
+alias heroic="flatpak run com.heroicgameslauncher.hgl"
+
 # reemplazar herramientas
 if [ -f /usr/bin/bat ]; then
 	alias cat="bat"

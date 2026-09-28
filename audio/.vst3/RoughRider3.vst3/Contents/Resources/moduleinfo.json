@@ -1,0 +1,50 @@
+{
+  "Name": "RoughRider3",
+  "Version": "3.3.0",
+  "Factory Info": {
+    "Vendor": "Audio Damage, Inc.",
+    "URL": "http://www.audiodamage.com",
+    "E-Mail": "info@audiodamage.com",
+    "Flags": {
+      "Unicode": true,
+      "Classes Discardable": false,
+      "Component Non Discardable": false,
+    },
+  },
+  "Classes": [
+    {
+      "CID": "ABCDEF019182FAEB4175446152523330",
+      "Category": "Audio Module Class",
+      "Name": "RoughRider3",
+      "Vendor": "Audio Damage, Inc.",
+      "Version": "3.3.0",
+      "SDKVersion": "VST 3.8.0",
+      "Sub Categories": [
+        "Fx",
+        "Dynamics",
+        "Stereo",
+      ],
+      "Class Flags": 0,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+    {
+      "CID": "ABCDEF011234ABCD4175446152523330",
+      "Category": "Component Controller Class",
+      "Name": "RoughRider3",
+      "Vendor": "Audio Damage, Inc.",
+      "Version": "3.3.0",
+      "SDKVersion": "VST 3.8.0",
+      "Sub Categories": [
+        "Fx",
+        "Dynamics",
+        "Stereo",
+      ],
+      "Class Flags": 0,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+  ],
+}

@@ -42,7 +42,7 @@ DialogHeight=726
 DialogWidth=991
 
 [Containments][233][Wallpaper][org.kde.image][General]
-Image=/home/ariel/Imágenes/wallpapers/Dibujo-Render/forrest_foxes.jpg
+Image=/home/ariel/Imágenes/wallpapers/Logos/kde.jpg
 
 [Containments][234]
 ItemGeometries-1920x1080=
@@ -60,7 +60,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][234][Wallpaper][org.kde.image][General]
-Image=/home/ariel/Imágenes/wallpapers/Dibujo-Render/forrest_foxes.jpg
+Image=/home/ariel/Imágenes/wallpapers/Logos/kde.jpg
 
 [Containments][235]
 activityId=
@@ -208,7 +208,7 @@ DialogWidth=720
 
 [Containments][235][Applets][271][Configuration][General]
 hideLauncherOnStart=false
-launchers=applications:org.mozilla.firefox.desktop,file:///var/lib/flatpak/exports/share/applications/io.anytype.anytype.desktop,applications:youtube-music-desktop-app.desktop,file:///home/ariel/.local/share/applications/cockos-reaper.desktop
+launchers=applications:org.mozilla.firefox.desktop,applications:brave-origin.desktop,file:///var/lib/flatpak/exports/share/applications/io.anytype.anytype.desktop,applications:youtube-music-desktop-app.desktop,applications:arch-cockos-reaper.desktop
 middleClickAction=Close
 taskMaxWidth=Wide
 
@@ -243,7 +243,7 @@ immutability=1
 plugin=org.kde.latte.separator
 
 [Containments][235][General]
-AppletOrder=236;237;238;239;271;241;273;274;243;275;259
+AppletOrder=236;237;271;239;241;238;273;274;243;275;259
 
 [ScreenMapping]
 itemsOnDisabledScreens=0,72e1ccb5-40b2-4b57-93d7-76705bd3d7ab,1,desktop:/io.github.ryubing.Ryujinx.desktop

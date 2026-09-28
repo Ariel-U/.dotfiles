@@ -335,7 +335,7 @@ activate widget 261=none,none,Activar el elemento gráfico Paginador
 activate widget 271=none,none,Activar el elemento gráfico Gestor de tareas con solo iconos
 activate widget 273=none,none,Activar el elemento gráfico Informe meteorológico
 activate widget 275=none,none,Activar el elemento gráfico Reloj digital
-activate widget 306=none,none,Activar el elemento gráfico Volumen del sonido
+activate widget 306=Meta+Ctrl+V,none,Activar el elemento gráfico Volumen del sonido
 activate widget 362=none,none,Activar el elemento gráfico Andromeda Launcher
 activate widget 392=none,none,Activar el elemento gráfico Plasma Gnome Pager
 activate widget 4=none,none,Activar el elemento gráfico Lanzador de aplicaciones
@@ -403,7 +403,7 @@ RecordRegion=Meta+Shift+R
 
 [services][org.mozilla.firefox.desktop]
 _launch=Meta+B
-new-private-window=Ctrl+Shift+P
+new-private-window=Meta+Shift+P
 
 [yakuake]
 _k_friendly_name=Yakuake
